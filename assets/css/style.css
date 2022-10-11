@@ -774,7 +774,10 @@ main {
   #RESUME
 \*-----------------------------------*/
 
-.article-title { margin-bottom: 30px; }
+.article-title { 
+  margin-bottom: 30px; 
+  color: var(--light-gray);
+}
 
 
 /**
