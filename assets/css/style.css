@@ -167,10 +167,14 @@ body { background: var(--smoky-black); }
 
 table, th, td {
     border-collapse: collapse;
-    border: 2px solid var(--text-gradient-yellow);
+    border: 2px solid #c6ac51;
     margin-right: auto;
     margin-left: auto;
     text-align: left;
+    color: var(--light-gray);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-3);
+    line-height: 1.6;
 }
 
 th, td {
