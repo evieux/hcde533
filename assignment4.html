@@ -17,31 +17,44 @@
          <h2 class="article-title">A4: Subtractive Manufacturing!</h2>
          <div class="service-item-text">3D printing a box</div><br>
           <div class="service-item-text"></div>
-           <img src="./assets/images/assignment-4-1.png" loading="lazy">
-            <div class="service-item-text">After finishing the assembly, I started to level the bed. The aim of bed leveling is to ensure 
-              the nozzle is very close to the bed at all four points. To adjust this, I first chose “auto home” from the dial to move 
-              the nozzle to [x=0, y=0, z=0] and disabled the steppers to be able to adjust the position of the nozzle by myself manually. 
-              Then, I put a piece of letter paper under the nozzle. By tuning the four-wheel screws under the bed, I made sure it could 
-              barely move between the nozzle and the bed when moving the nozzle. </div>
-             <img src="./assets/images/assignment-4-2.png" loading="lazy"><br>
-           <img src="./assets/images/assignment-3-4.png" loading="lazy"><br>
-           <div class="service-item-text">Nested object!</div>
-            <div class="service-item-text">What I wanted to design is a vase with two holes that have optional addons to hold photos and 
-              flowers. I used SubD Tools in Rhino to build the vase and addons. I tried twice to print it out. For the first time, I printed 
-              the vase by setting it with the special mode "spiralize outer contour." The thickness is not enough to stick to each line together, 
-              so it was loose in the middle of the vase. Then I added the thickness by using the command offsetsrf to increase the thickness to 1.5mm 
-              and scale it to 0.9 to get a quicker result. The total print time is 1h19mins. This time it worked out! I'm pretty happy with this result.
-              </div>
-             <img src="./assets/images/assignment-3-7.png" loading="lazy">
-            <img src="./assets/images/assignment-3-5.png" loading="lazy">  
-            <img src="./assets/images/assignment-3-6.png" loading="lazy">
-            <img src="./assets/images/assignment-3-10.png" loading="lazy">
-            <img src="./assets/images/assignment-3-8.png" loading="lazy">
-            <img src="./assets/images/assignment-3-9.png" loading="lazy">
+            <img src="./assets/images/assignment-4-1.png" loading="lazy"><br>
+            <div class="service-item-text">Since last week's practice on 3D printing, I have more sense of how to nest parts and structures. 
+To design a box made up of flat panels with finger joints or boxjoints, after browsing different types of finger joints. I decided to use a 
+              through dovetail joint to join boxes. It’s common to use on the rear corners of drawers, so I believe it should work great with 
+              tight fit. It contains a flaring tenon and a mortise into, making an interlocking joint between two flat panels of a box. </div>
+         
+           <img src="./assets/images/assignment-4-2.png" loading="lazy"><br>
+           <img src="./assets/images/assignment-4-3.png" loading="lazy"><br>
+           <div class="service-item-text">I felt more comfortable drawing geometries in Rhino than before! I know there are so many fancy 
+             and efficient ways to get this result, like grasshopper, but I still prefer to use the command Trim to finish this job.</div>
+           <img src="./assets/images/assignment-4-5.png" loading="lazy">
+           <div class="service-item-text">I first printed two samples with a hollow center to reduce the print time. The result is they 
+             couldn’t join together because the tenon is too large to fit into the mortise. After making sure there were no wobbles, loose 
+             screws, or loose belts on my printer, I decided to give them more tolerance.</div>
+           
+           <img src="./assets/images/assignment-4-4.png" loading="lazy"> 
+           <div class="service-item-text">After modifying the model by rescaling all the tenons to 0.9 in the Y direction, it works! I also 
+              printed a smaller version to reduce the print time.</div><br>
+         
+           <img src="./assets/images/assignment-4-6.png" loading="lazy">
+           <img src="./assets/images/assignment-4-7.png" loading="lazy">
+           <div class="service-item-text">Then I noticed a problem if I need to connect six pieces into a box of six interfaces, 
+              I cannot place tenon or mortise near the corner, or neighboring pieces cannot join. I removed one tenon or mortise from each side.</div>
+             
+           <img src="./assets/images/assignment-4-9.png" loading="lazy">
+           <img src="./assets/images/assignment-4-8.png" loading="lazy">
+           <div class="service-item-text">Then I added my favorite pattern - Ancient Chinese style inside of it!</div><br>
+         
+          <img src="./assets/images/assignment-4-10.png" loading="lazy">
+          <img src="./assets/images/assignment-4-11.png" loading="lazy">
+         <div class="service-item-text">Final outcome!</div>
          
            
-           <div class="service-item-text">Acknowledgement:</div> 
-           <div class="service-item-text">Junchao TA helps a lot with how to add thickness to the vase.</div>
+           
+           <div class="service-item-text">This week I finished it independently!</div>
+           <div class="service-item-text">Resources:</div>
+           <a href="https://www.woodworkingarchive.biz/joining-wood/info-iqj.html">Interlocking joints</a>
+           <a href="https://www.thingiverse.com/thing:2821011">Pattern</a>
          <br>
            <a href="index.html" class="service-item-text">Return to home</a>                 
        </article>
