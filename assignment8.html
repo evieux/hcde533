@@ -22,12 +22,12 @@
            <div class="service-item-text font-bold">Changes</div>
            <div class="service-item-text">I managed to keep most original design from the proposal, and updated the design of figurines 
              on the platform. I changed from family members to more festival ones, including gingerbread man, snowman, deer and a lovely 
-             ginger house. I also removed the design of a box that can be opened and stored because its weight may cause the platform unbalanced.</div>
+             ginger house. I also removed the design of a box that can be opened and stored because its weight may cause the platform unbalanced.</div> <br>
          <div class="service-item-text">I really struggle with the timeline for this project, as I had Covid and got severe symptoms 
            so I couldn’t effectively use my time. My original plan was to laser cut plywood for the large parts (base, platform, brace, 
            arches and brackets), but because of quarantine at home, I couldn’t go to Mill and had to change the process too. I ended up 
            with 3D printing all of them. I also pivoted away from mold casting candles because it may takes too much time while it was not 
-           the core part of the design.</div>
+           the core part of the design.</div> <br>
          <div class="service-item-text">The methods I adopted in the updated process:<br>
          Rhino (3D modeling and mesh editing)<br>
          Grasshopper on parametric design<br>
@@ -51,26 +51,26 @@
               Ornaments x 23<br>
               Figurines x 4
               </div>
-              
+              <br>
               <div class="service-item-text">Christmas tree and ornaments: I used Truncated Cone to create each level of the Christmas 
                 tree and used ApplyEdgeSoftening to have rounded tree edges. The ornaments are installed on the tree using press fit, 
                 and I found it’s an art to set the correct tolerance for a tight fit. After trial-and-error for more than 10 attempts, 
                 I finally landed with a tolerance of 0.2mm. This exercise turned very helpful as I had a much better intuitive sense 
-                after this for how to adjust the tolerance, and applied it in various press fits need for other parts.</div>
+                after this for how to adjust the tolerance, and applied it in various press fits need for other parts.</div><br>
          
               <div class="service-item-text">Hub and fan blades: I made the hub with 8 square slots to install 8 fan blades. Each square 
-                slot is tilted for 30 degrees and this nicely fixed the blade position I need.</div>
+                slot is tilted for 30 degrees and this nicely fixed the blade position I need.</div><br>
               
               <div class="service-item-text">Arches: to add dynamics to the design, the arch has snowflakes both as positive and negative 
                 spaces on the surface. I used BooleanDifference and BooleanUnion to achieve this effect. It turned out the negative space 
                 was very challenging for the printer to produce and I iterated the line thickness and shapes multiple times to avoid 3D 
-                printed spaghetti. I have more details on this in the next section.</div>
+                printed spaghetti. I have more details on this in the next section.</div><br>
                <div class="service-item-text">Platform and figurines: I selected multiple festival figurines from Thingverse, and added a 
-                 cylinder to each so that they can be installed on the platform using press fit. </div>
+                 cylinder to each so that they can be installed on the platform using press fit. </div><br>
               <div class="service-item-text">Brackets: the arches are installed on the base with a couple of brackets underneath as the 
                 fixture. The brackets are slotted into the end of arches.</div>
              
-         
+          <br>
          <div class="service-item-text font-bold">Parametric design with Grasshopper</div>
          <img src="./assets/images/assignment-8-3.png" loading="lazy" style="width: 100%;">
          <div class="service-item-text">Snowflake is my main design on arches and I wanted different thickness and shapes of snowflakes. 
@@ -79,31 +79,36 @@
            configurable. The parametric design of the snowflake turned out critical to make the 3D printing feasible, as I had to adjust the 
            number of petals and the line width multiple times to find the value that my printer can produce with while keeping the aesthetics
            of the original design. </div>
-         
+          <br>
+         <div class="service-item-text font-bold">3D Printing</div>
+         <img src="./assets/images/assignment-8-8.png" loading="lazy">
+         <img src="./assets/images/assignment-8-9.png" loading="lazy" >
          <div class="service-item-text font-bold">Coloring</div>
+         <img src="./assets/images/assignment-8-7.png" loading="lazy">
          <div class="service-item-text">For coloring, I bought 30 acrylic paint pens that can color plastics. The main parts I painted are 
            Christmas trees, figurines, and ornaments. This is the most fun part in the whole project! I really enjoyed painting these small 
            items, and observe how they turned into colorful creatures that give the festival vibe. I tried different combinations of colors 
            on some parts as I could always print another right away!</div>
+          <br>
          <div class="service-item-text font-bold">Bill of materials</div>
          <div class="service-item-text">
-         Acrylic paint 30 pens $30.59
-         Pole $2.59
-         Sandpaper $5.39
-         Candle $4
+         Acrylic paint 30 pens $30.59<br>
+         Pole $2.59<br>
+         Sandpaper $5.39<br>
+         Candle $4<br>
          </div>
-         
+          <br>
          <div class="service-item-text font-bold">Assembly</div>
           <img src="./assets/images/assignment-8-4.png" loading="lazy" style="width: 100%;">
          <img src="./assets/images/assignment-8-5.png" loading="lazy" style="width: 100%;">
          <img src="./assets/images/assignment-8-6.png" loading="lazy" style="width: 100%;">
-         
+          <br>
          <div class="service-item-text font-bold">Source files</div>
          <div class="service-item-text">
            <a href="pyramid-spinner.3dm.zip" class="service-item-text" style="text-decoration: underline;">Rhino file</a>
            <a href="snowflake.gh" class="service-item-text" style="text-decoration: underline;">grasshopper file</a>
          </div>
-         
+          <br>
          <div class="service-item-text font-bold">References</div>
          <div class="service-item-text">
            <a href="https://www.thingiverse.com/thing:1888803" class="service-item-text">Deer</a> 
